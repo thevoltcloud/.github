@@ -4,16 +4,16 @@
 
 ## Reporting a Vulnerability
 
-To report a security issue, please email **security@volt.cloud** with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. Our vulnerability management team will respond within 3 working days of your email. If the issue is confirmed as a vulnerability, we will open a GitHub Security Advisory. This project follows a 90 day disclosure timeline.
+To report a security issue, please email **security@voltcloud.ai** with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. Our vulnerability management team will respond within 3 working days of your email. If the issue is confirmed as a vulnerability, we will open a GitHub Security Advisory. This project follows a 90 day disclosure timeline.
 
 Please **do not** open a public GitHub issue for security reports.
 
 ## Encrypted reporting
 
-`security@volt.cloud` accepts GPG-encrypted mail. The current public key and its fingerprint are published at:
+`security@voltcloud.ai` accepts GPG-encrypted mail. The current public key and its fingerprint are published at:
 
 ```
-https://volt.cloud/.well-known/security.txt
+https://voltcloud.ai/.well-known/security.txt
 ```
 
 (per [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116)). Use it for any report containing sensitive details, proof-of-concept code, or customer data.

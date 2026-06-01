@@ -11,7 +11,7 @@ If you landed here from a Volt repository looking for a `SECURITY.md`, `CODE_OF_
 | `profile/README.md` | `github.com/thevoltcloud` | The org profile page. First thing visitors see. |
 | `CODE_OF_CONDUCT.md` | All repos | Contributor Covenant 2.1. |
 | `CONTRIBUTING.md` | All public repos | How to contribute, CLA expectations. |
-| `SECURITY.md` | All repos | Vulnerability disclosure to `security@volt.cloud`. |
+| `SECURITY.md` | All repos | Vulnerability disclosure to `security@voltcloud.ai`. |
 | `SUPPORT.md` | All repos | Where to get help. |
 | `GOVERNANCE.md` | OSS components | How decisions get made. |
 | `ISSUE_TEMPLATE/` | All repos | Bug / feature / question forms + config. |

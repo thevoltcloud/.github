@@ -4,7 +4,7 @@ Thanks for using Volt. Here is where to get help, fastest path first.
 
 ## Documentation
 
-- **Product & API docs:** https://docs.volt.cloud
+- **Product & API docs:** https://docs.voltcloud.ai
 - **API reference:** generated from the OpenAPI spec, linked from the docs site.
 - **SDK guides:** in each SDK repo's `README.md` and `examples/`.
 
@@ -21,11 +21,11 @@ Open an issue on the **specific repository** using the bug or feature template. 
 
 ## Security
 
-Do **not** use public issues for security reports. See [`SECURITY.md`](SECURITY.md) — email `security@volt.cloud`.
+Do **not** use public issues for security reports. See [`SECURITY.md`](SECURITY.md) — email `security@voltcloud.ai`.
 
 ## Paid / commercial support
 
-Volt customers (Spark, Forge, Vault) get support through their contract SLA. Reach your account contact, or email **support@volt.cloud**. For sales, **hello@volt.cloud**.
+Volt customers (Spark, Forge, Vault) get support through their contract SLA. Reach your account contact, or email **support@voltcloud.ai**. For sales, **hello@voltcloud.ai**.
 
 ## What's not supported here
 

@@ -27,5 +27,5 @@ body:
     attributes:
       label: Before submitting
       options:
-        - label: I checked the docs at https://docs.volt.cloud and searched existing issues/Discussions.
+        - label: I checked the docs at https://docs.voltcloud.ai and searched existing issues/Discussions.
           required: true

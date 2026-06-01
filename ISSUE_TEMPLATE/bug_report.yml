@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to file a bug. Please search existing issues first.
-        **Do not report security vulnerabilities here** — see SECURITY.md and email security@volt.cloud.
+        **Do not report security vulnerabilities here** — see SECURITY.md and email security@voltcloud.ai.
   - type: input
     id: repo-area
     attributes:
@@ -65,5 +65,5 @@ body:
       options:
         - label: I searched existing issues and did not find a duplicate.
           required: true
-        - label: This is not a security vulnerability (those go to security@volt.cloud).
+        - label: This is not a security vulnerability (those go to security@voltcloud.ai).
           required: true

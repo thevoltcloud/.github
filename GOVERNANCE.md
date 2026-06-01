@@ -72,12 +72,12 @@ To become a Maintainer you need to demonstrate the following:
   <!-- add any additional Maintainer requirements here -->
 
 A new Maintainer must be proposed by an existing maintainer by sending a message to the
-[developer mailing list](mailto:oss@volt.cloud). A simple majority vote of existing Maintainers
+[developer mailing list](mailto:oss@voltcloud.ai). A simple majority vote of existing Maintainers
 approves the application.  Maintainers nominations will be evaluated without prejudice
 to employer or demographics.
 
 Maintainers who are selected will be granted the necessary GitHub rights,
-and invited to the [private maintainer mailing list](mailto:maintainers@volt.cloud).
+and invited to the [private maintainer mailing list](mailto:maintainers@voltcloud.ai).
 
 ### Removing a Maintainer
 
@@ -100,7 +100,7 @@ and can be rapidly returned to Maintainer status if their availability changes.
 
 Time zones permitting, Maintainers are expected to participate in the public
 developer meeting, which occurs
-on a recurring public call announced on the developer mailing list (oss@volt.cloud) and in the relevant repository's GitHub Discussions.  
+on a recurring public call announced on the developer mailing list (oss@voltcloud.ai) and in the relevant repository's GitHub Discussions.  
 
 Maintainers will also have closed meetings in order to discuss security reports
 or Code of Conduct violations.  Such meetings should be scheduled by any
@@ -111,7 +111,7 @@ accused of a CoC violation.
 ## CNCF Resources
 
 Any Maintainer may suggest a request for CNCF resources, either in the
-[mailing list](mailto:oss@volt.cloud), or during a
+[mailing list](mailto:oss@voltcloud.ai), or during a
 meeting.  A simple majority of Maintainers approves the request.  The Maintainers
 may also choose to delegate working with the CNCF to non-Maintainer community
 members, who will then be added to the [CNCF's Maintainer List](https://github.com/cncf/foundation/blob/main/project-maintainers.csv)
@@ -121,7 +121,7 @@ for that purpose.
 
 [Code of Conduct](./CODE_OF_CONDUCT.md)
 violations by community members will be discussed and resolved
-on the [private Maintainer mailing list](mailto:maintainers@volt.cloud).  If a Maintainer is directly involved
+on the [private Maintainer mailing list](mailto:maintainers@voltcloud.ai).  If a Maintainer is directly involved
 in the report, the Maintainers will instead designate two Maintainers to work
 with the CNCF Code of Conduct Committee in resolving it.
 
@@ -140,8 +140,8 @@ holes and breaches according to the [security policy](./SECURITY.md).
 
 While most business in the Volt open source projects is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)", 
 periodically the Maintainers may need to vote on specific actions or changes.
-A vote can be taken on [the developer mailing list](mailto:oss@volt.cloud) or
-[the private Maintainer mailing list](mailto:maintainers@volt.cloud) for security or conduct matters.  
+A vote can be taken on [the developer mailing list](mailto:oss@voltcloud.ai) or
+[the private Maintainer mailing list](mailto:maintainers@voltcloud.ai) for security or conduct matters.  
 Votes may also be taken at the developer meeting.  Any Maintainer may
 demand a vote be taken.
 

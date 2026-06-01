@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://volt.cloud">volt.cloud</a> ·
-  <a href="https://docs.volt.cloud">docs</a> ·
-  <a href="mailto:hello@volt.cloud">hello@volt.cloud</a>
+  <a href="https://voltcloud.ai">voltcloud.ai</a> ·
+  <a href="https://docs.voltcloud.ai">docs</a> ·
+  <a href="mailto:hello@voltcloud.ai">hello@voltcloud.ai</a>
 </p>
 
 ---
@@ -38,7 +38,7 @@ Our public SDKs, CLI, docs, and website are Apache-2.0. We maintain feature fork
 ### Get involved
 
 - 🐛 Found a bug or have an idea? Open an issue on the relevant repo.
-- 🔐 Security disclosure → [`SECURITY.md`](https://github.com/thevoltcloud/.github/blob/main/SECURITY.md) · `security@volt.cloud`.
+- 🔐 Security disclosure → [`SECURITY.md`](https://github.com/thevoltcloud/.github/blob/main/SECURITY.md) · `security@voltcloud.ai`.
 - 🤝 Contributing → [`CONTRIBUTING.md`](https://github.com/thevoltcloud/.github/blob/main/CONTRIBUTING.md).
 
 <p align="center"><sub>Volt is built by the team behind Cuemby. CNCF-native, sovereign-first.</sub></p>

@@ -4,11 +4,11 @@ contact_links:
     url: https://github.com/orgs/thevoltcloud/discussions
     about: Usage questions, ideas, and general discussion. Start here for anything open-ended.
   - name: 📚 Documentation
-    url: https://docs.volt.cloud
+    url: https://docs.voltcloud.ai
     about: Product, API, and SDK documentation.
   - name: 🔒 Report a security vulnerability
     url: https://github.com/thevoltcloud/.github/blob/main/SECURITY.md
-    about: Do NOT open a public issue. Email security@volt.cloud (GPG key in SECURITY.md).
+    about: Do NOT open a public issue. Email security@voltcloud.ai (GPG key in SECURITY.md).
   - name: 🛟 Commercial / customer support
-    url: mailto:support@volt.cloud
+    url: mailto:support@voltcloud.ai
     about: Volt customers — support under your contract SLA.

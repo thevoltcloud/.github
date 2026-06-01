@@ -38,7 +38,7 @@ We welcome many different types of contributions including:
 * Release management
 
 Not everything happens through a GitHub pull request. Please come to our
-[Discussions](https://github.com/orgs/thevoltcloud/discussions) or [contact us](mailto:oss@volt.cloud) and let's discuss how we can work
+[Discussions](https://github.com/orgs/thevoltcloud/discussions) or [contact us](mailto:oss@voltcloud.ai) and let's discuss how we can work
 together. 
 
 ### Come to Meetings
@@ -48,7 +48,7 @@ Absolutely everyone is welcome to come to any of our meetings. You never need an
 invite to join us. In fact, we want you to join us, even if you don’t have
 anything you feel like you want to contribute. Just being there is enough!
 
-Community syncs are announced on the developer mailing list (oss@volt.cloud) and in GitHub Discussions. You don’t have to turn on
+Community syncs are announced on the developer mailing list (oss@voltcloud.ai) and in GitHub Discussions. You don’t have to turn on
 your video. The first time you come, introducing yourself is more than enough.
 Over time, we hope that you feel comfortable voicing your opinions, giving
 feedback on others’ ideas, and even sharing your own ideas, and experiences.
@@ -76,7 +76,7 @@ The best way to reach us with a question when contributing is to ask on:
 
 * The original GitHub issue
 * [GitHub Discussions](https://github.com/orgs/thevoltcloud/discussions)
-* The developer mailing list: oss@volt.cloud
+* The developer mailing list: oss@voltcloud.ai
 
 ## Pull Request Lifecycle
 
@@ -104,7 +104,7 @@ git commit -m 'feat: add the thing'
 
 ### Contributor License Agreement
 
-We require every contributor to sign Volt's Contributor License Agreement (CLA) before we can merge your work. The CLA bot comments on your first pull request with a one-click signing link; sign in with GitHub and the check turns green. Corporate contributors should email oss@volt.cloud to set up a company CLA covering their team.
+We require every contributor to sign Volt's Contributor License Agreement (CLA) before we can merge your work. The CLA bot comments on your first pull request with a one-click signing link; sign in with GitHub and the check turns green. Corporate contributors should email oss@voltcloud.ai to set up a company CLA covering their team.
 
 ## Pull Request Checklist
 
