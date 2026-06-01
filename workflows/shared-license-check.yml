@@ -1,0 +1,50 @@
+# Reusable license-compliance workflow for all thevoltcloud repos.
+# Wraps Apache skywalking-eyes / license-eye (https://github.com/apache/skywalking-eyes)
+# to enforce that every source file carries the Apache-2.0 header and that
+# dependency licenses are allowed.
+#
+# Public repos are Apache-2.0. Each repo should ship a .licenserc.yaml; if absent,
+# this workflow runs against sensible defaults.
+#
+# Call from a repo with:
+#   jobs:
+#     license:
+#       uses: thevoltcloud/.github/.github/workflows/shared-license-check.yml@main
+name: shared-license-check
+
+on:
+  workflow_call:
+    inputs:
+      config:
+        description: "Path to the license-eye config file."
+        type: string
+        default: ".licenserc.yaml"
+
+permissions:
+  contents: read
+
+jobs:
+  license-header:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check license headers
+        uses: apache/skywalking-eyes/header@v0.6.0
+        with:
+          config: ${{ inputs.config }}
+          mode: check
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+  dependency-licenses:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Resolve and check dependency licenses
+        uses: apache/skywalking-eyes/dependency@v0.6.0
+        with:
+          config: ${{ inputs.config }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

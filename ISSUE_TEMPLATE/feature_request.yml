@@ -1,0 +1,46 @@
+name: Feature request
+description: Suggest a new capability or improvement.
+title: "feat: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please search existing issues and Discussions first —
+        broad or open-ended ideas are often a better fit for Discussions.
+  - type: input
+    id: repo-area
+    attributes:
+      label: Affected component
+      description: Which SDK, CLI, service, or area would this touch?
+      placeholder: "e.g. sdk-typescript, voltctl"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the use case and the pain today. Focus on the why.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What you'd like to happen. API shape, command, or behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches or workarounds you've tried or thought about.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and Discussions for this idea.
+          required: true

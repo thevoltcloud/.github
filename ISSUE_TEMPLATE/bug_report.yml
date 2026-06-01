@@ -1,0 +1,69 @@
+name: Bug report
+description: Report something that is broken or behaving incorrectly.
+title: "bug: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug. Please search existing issues first.
+        **Do not report security vulnerabilities here** — see SECURITY.md and email security@volt.cloud.
+  - type: input
+    id: repo-area
+    attributes:
+      label: Affected component
+      description: Which SDK, CLI, service, or area is this about?
+      placeholder: "e.g. sdk-python, voltctl, Spark API"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected instead.
+      placeholder: Tell us what you saw and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps. Include code or commands if you can.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: SDK / CLI / service version (e.g. output of `voltctl version`).
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, language runtime version, region/pod if relevant.
+      placeholder: "macOS 15.5, Python 3.12, pod-iad-001"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or output
+      description: Paste logs. They are automatically formatted as code; redact secrets.
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
+        - label: This is not a security vulnerability (those go to security@volt.cloud).
+          required: true

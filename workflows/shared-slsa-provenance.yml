@@ -1,0 +1,45 @@
+# Reusable SLSA provenance workflow for all thevoltcloud repos.
+# Wraps the official SLSA GitHub generator
+# (https://github.com/slsa-framework/slsa-github-generator) to produce
+# SLSA Build Level 3 provenance for release artifacts.
+#
+# Aligns with the repo catalog requirement: "Image build + cosign + SLSA L3
+# provenance per affected service."
+#
+# Call from a repo AFTER it has produced artifacts and their base64 sha256 digests:
+#   jobs:
+#     provenance:
+#       needs: [build]
+#       permissions:
+#         actions: read
+#         id-token: write
+#         contents: write
+#       uses: thevoltcloud/.github/.github/workflows/shared-slsa-provenance.yml@main
+#       with:
+#         base64-subjects: ${{ needs.build.outputs.digests }}
+name: shared-slsa-provenance
+
+on:
+  workflow_call:
+    inputs:
+      base64-subjects:
+        description: "Base64-encoded `sha256sum`-formatted list of artifacts to attest."
+        type: string
+        required: true
+      upload-assets:
+        description: "Attach the provenance to the GitHub release."
+        type: boolean
+        default: true
+
+# The generator reusable workflow defines and requires these permissions.
+permissions:
+  actions: read
+  id-token: write
+  contents: write
+
+jobs:
+  provenance:
+    uses: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.0.0
+    with:
+      base64-subjects: ${{ inputs.base64-subjects }}
+      upload-assets: ${{ inputs.upload-assets }}
